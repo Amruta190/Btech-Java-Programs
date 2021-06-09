@@ -22,11 +22,11 @@ public class _3b {
         for(int i=0;i<m+1;i++)
         {
             for(int j=0;j<n+1;j++)
-                System.out.print(sales[i][j]+"   ");
+                System.out.print(sales[i][j]+"\t");
             System.out.println();
         }       
         System.out.println("Item(s) with more demand :");
-        System.out.println("Year  Id");
+        System.out.println("Year  Id  Sales");
         int max=0;
         for(int i=1;i<m+1;i++)
         {
@@ -43,7 +43,7 @@ public class _3b {
                 if(sales[i][j]==max)
                 {
                     max=sales[i][j];
-                    System.out.println(sales[i][0]+"  "+sales[0][j]);
+                    System.out.println(sales[i][0]+"  "+sales[0][j]+"  "+sales[i][j]);
                 }
             }
         }
