@@ -9,11 +9,19 @@ public class pattern_2 {
             System.out.println("Invalid input");
         else
         {
-            for(int i=1;i<=n;i++)
+            int arr[][]=new int[n][n];
+            for(int i=0;i<arr.length;i++)
             {
-                for(int j=1;j<=i;j++)
+                for(int j=0;j<=i;j++)
                 {
-                    System.out.print(i+" ");
+                    arr[i][j]=i+1;
+                }
+            }
+            for(int i=0;i<arr.length;i++)
+            {
+                for(int j=0;j<=i;j++)
+                {
+                    System.out.print(arr[i][j]+" ");
                 }
                 System.out.println();
             }
