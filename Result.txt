@@ -1,0 +1,3 @@
+Number of alphabets = 55
+Number of Numerics = 4
+Number of special symbols = 20
