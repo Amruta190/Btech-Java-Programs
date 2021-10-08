@@ -11,8 +11,7 @@ public class _9b {
         int total_revenue = 0;
         while ((k = fr.readLine()) != null) {
             String ar[] = k.split(",");
-            System.out
-                    .println("\nID : " + ar[0] + "\nName : " + ar[1] + "\nPrice : " + ar[2] + "\nQuantity : " + ar[3]);
+            System.out.println("\nID : " + ar[0] + "\nName : " + ar[1] + "\nPrice : " + ar[2] + "\nQuantity : " + ar[3]);
             total_revenue += Integer.parseInt(ar[2]) * Integer.parseInt(ar[3]);
             quantity.add(Integer.parseInt(ar[3]));
         }
@@ -26,8 +25,7 @@ public class _9b {
             while ((k = fr.readLine()) != null) {
                 String ar[] = k.split(",");
                 if (Integer.toString(i).equals(ar[3])) {
-                    System.out.println(
-                            "\nID : " + ar[0] + " \tName : " + ar[1] + " \tPrice : " + ar[2] + " \tQuantity : " + ar[3]);
+                    System.out.println("\nID : " + ar[0] + " \tName : " + ar[1] + " \tPrice : " + ar[2] + " \tQuantity : " + ar[3]);
                 }
             }
         }
